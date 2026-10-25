@@ -19,10 +19,6 @@
 
 `npm token create --read-only`
 
-- Create a token with publish access:
-
-`npm token create --publish`
-
 - Automatically configure an npm token in your global `.npmrc` file when you log in:
 
 `npm login`

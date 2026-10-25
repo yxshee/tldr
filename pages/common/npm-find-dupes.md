@@ -11,10 +11,6 @@
 
 `npm find-dupes --include dev`
 
-- List all duplicate instances of a specific package in `node_modules`:
-
-`npm find-dupes {{package_name}}`
-
 - Exclude optional dependencies from duplicate detection:
 
 `npm find-dupes --omit optional`
@@ -26,11 +22,3 @@
 - Output duplicate information in JSON format:
 
 `npm find-dupes --json`
-
-- Limit duplicate search to specific scopes:
-
-`npm find-dupes --scope {{@scope1,@scope2}}`
-
-- Exclude specific scopes from duplicate detection:
-
-`npm find-dupes --omit-scope {{@scope1,@scope2}}`

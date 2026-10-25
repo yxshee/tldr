@@ -15,13 +15,9 @@
 
 `npm {{[s|search]}} {{package}} --long`
 
-- Search for packages maintained by a specific author:
+- Search for packages maintained by a specific user:
 
-`npm {{[s|search]}} --author {{author}}`
-
-- Search for packages with a specific organization:
-
-`npm {{[s|search]}} --scope {{organization}}`
+`npm {{[s|search]}} maintainer:{{username}}`
 
 - Search for packages with a specific combination of terms:
 

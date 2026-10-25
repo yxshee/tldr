@@ -15,10 +15,6 @@
 
 `npm unpublish @{{scope}}/{{package_name}}`
 
-- Specify a timeout period before unpublishing:
-
-`npm unpublish {{package_name}} --timeout {{time_in_milliseconds}}`
-
 - Simulate what would be unpublished without actually doing it:
 
 `npm unpublish {{package_name}} --dry-run`

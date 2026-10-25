@@ -13,7 +13,7 @@
 
 - Run a command if it exists in the current path or in `node_modules/.bin`:
 
-`npm {{[x|exec]}} --no-install {{command}} {{argument1 argument2 ...}}`
+`npm {{[x|exec]}} --no {{command}} {{argument1 argument2 ...}}`
 
 - Execute a specific command, suppressing any output from `npm` itself:
 

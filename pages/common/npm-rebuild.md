@@ -19,10 +19,6 @@
 
 `npm {{[rb|rebuild]}} --prefix {{path/to/dir}} {{package}}`
 
-- Rebuild without using the npm cache:
-
-`npm {{[rb|rebuild]}} --no-cache`
-
 - Rebuild in global mode:
 
 `npm {{[rb|rebuild]}} {{[-g|--global]}}`

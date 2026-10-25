@@ -7,13 +7,9 @@
 
 `npm {{[ddp|dedupe]}}`
 
-- Follow `package-lock.json` or `npm-shrinkwrap.json` during deduplication:
+- Simulate deduplication, showing what would be removed or changed:
 
-`npm {{[ddp|dedupe]}} --lock`
-
-- Run deduplication in strict mode:
-
-`npm {{[ddp|dedupe]}} --strict`
+`npm {{[ddp|dedupe]}} --dry-run`
 
 - Skip optional/peer dependencies during deduplication:
 
@@ -22,7 +18,3 @@
 - Enable detailed logging for troubleshooting:
 
 `npm {{[ddp|dedupe]}} --loglevel verbose`
-
-- Limit deduplication to a specific package:
-
-`npm {{[ddp|dedupe]}} {{package_name}}`

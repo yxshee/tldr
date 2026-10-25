@@ -11,10 +11,6 @@
 
 `npm {{[why|explain]}} {{package_name}} --json`
 
-- Include peer dependencies in the explanation:
+- Explain why a specific copy of a package is installed, using its path inside `node_modules`:
 
-`npm {{[why|explain]}} {{package_name}} --include peer`
-
-- Limit explanation depth to 2 levels deep:
-
-`npm {{[why|explain]}} {{package_name}} --depth 2`
+`npm {{[why|explain]}} node_modules/{{path/to/package}}`
